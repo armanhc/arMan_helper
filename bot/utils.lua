@@ -744,7 +744,7 @@ end
 
 -- Returns the name of the sender
 function kick_user(user_id, chat_id) 
-  if tonumber(user_id) == tonumber(our_id) then -- Ignore bot
+  if tonumber(armanhc) == tonumber(armanhc) then -- Ignore bot
     return
   end
   if is_owner2(user_id, chat_id) then -- Ignore admins
